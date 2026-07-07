@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="50%" stop-color="#111111"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="bottomFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="1"/>
+    </linearGradient>
+    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+  </defs>
+
+  <rect width="1100" height="520" fill="url(#bgGrad)"/>
+  <ellipse cx="880" cy="120" rx="200" ry="140" fill="url(#glow)" filter="url(#blur)"/>
+  <ellipse cx="180" cy="400" rx="160" ry="100" fill="url(#glow)" filter="url(#blur)"/>
+
+  <!-- grid lines -->
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <line x1="0" y1="130" x2="1100" y2="130"/>
+    <line x1="0" y1="260" x2="1100" y2="260"/>
+    <line x1="0" y1="390" x2="1100" y2="390"/>
+    <line x1="275" y1="0" x2="275" y2="520"/>
+    <line x1="550" y1="0" x2="550" y2="520"/>
+    <line x1="825" y1="0" x2="825" y2="520"/>
+  </g>
+
+  <foreignObject x="0" y="0" width="1100" height="520">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="width:1100px;height:520px;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;color:#fff;position:relative;overflow:hidden;">
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;500;600&display=swap');
+        * { margin:0; padding:0; box-sizing:border-box; }
+        .wrap { font-family:'Readex Pro',system-ui,sans-serif; width:100%; height:100%; position:relative; }
+        .nav { position:absolute; top:28px; left:40px; right:40px; display:flex; align-items:center; justify-content:space-between; z-index:10; }
+        .pill { display:inline-flex; align-items:center; gap:10px; background:rgba(23,23,23,0.92); border-radius:999px; border:1px solid rgba(255,255,255,0.07); padding:10px 20px 10px 16px; }
+        .pill span { font-size:13px; font-weight:400; letter-spacing:-0.01em; }
+        .pill-center { display:flex; gap:4px; background:rgba(23,23,23,0.92); border-radius:999px; border:1px solid rgba(255,255,255,0.07); padding:6px 8px; }
+        .pill-center a { color:rgba(255,255,255,0.55); font-size:12px; text-decoration:none; padding:8px 16px; border-radius:999px; }
+        .cta { background:#fff; color:#000; font-size:12px; text-decoration:none; padding:12px 22px; border-radius:999px; }
+        .hero-title { letter-spacing:-0.04em; line-height:0.92; font-weight:500; font-size:108px; text-transform:lowercase; }
+        .desc { position:absolute; left:40px; top:238px; max-width:220px; font-size:14px; line-height:1.45; color:rgba(255,255,255,0.88); }
+        .stat { position:absolute; }
+        .stat-num { font-size:40px; font-weight:500; letter-spacing:-0.02em; }
+        .stat-label { font-size:11px; color:rgba(255,255,255,0.65); margin-top:4px; text-transform:lowercase; }
+        .divider { width:72px; height:1px; background:rgba(255,255,255,0.38); }
+      </style>
+      <div class="wrap">
+        <nav class="nav">
+          <div class="pill">
+            <svg width="18" height="18" viewBox="0 0 256 256" fill="#fff"><path d="M128 192L128 256L64.5 256L32 223L0 192L0 128L64 128Z M256 192L256 256L192.5 256L160 223L128 192L128 128L192 128Z M128 64L128 128L64.5 128L32 95L0 64L0 0L64 0Z M256 64L256 128L192.5 128L160 95L128 64L128 0L192 0Z"/></svg>
+            <span>tandzp0o</span>
+          </div>
+          <div class="pill-center">
+            <a href="#about">about</a>
+            <a href="#experience">experience</a>
+            <a href="#projects">projects</a>
+            <a href="#skills">skills</a>
+          </div>
+          <a class="cta" href="https://ltttan-portfolio.vercel.app/">portfolio</a>
+        </nav>
+
+        <h1 class="hero-title" style="position:absolute;left:36px;top:108px;">build</h1>
+        <h1 class="hero-title" style="position:absolute;right:36px;top:198px;">with</h1>
+        <h1 class="hero-title" style="position:absolute;left:22%;top:288px;">purpose</h1>
+
+        <p class="desc">fullstack developer crafting erp/crm systems that ship to production  next.js, node.js, mongodb.</p>
+
+        <div class="stat" style="right:96px;top:88px;text-align:right;">
+          <div style="display:flex;align-items:center;gap:12px;justify-content:flex-end;">
+            <div class="divider" style="transform:rotate(20deg);"></div>
+            <div class="stat-num">+2yr</div>
+          </div>
+          <div class="stat-label">production experience</div>
+        </div>
+
+        <div class="stat" style="left:80px;bottom:72px;">
+          <div style="display:flex;align-items:center;gap:12px;">
+            <div class="stat-num">erp</div>
+            <div class="divider" style="transform:rotate(-20deg);"></div>
+          </div>
+          <div class="stat-label">crm systems shipped</div>
+        </div>
+
+        <div class="stat" style="right:80px;bottom:56px;text-align:right;">
+          <div style="display:flex;align-items:center;gap:12px;justify-content:flex-end;">
+            <div class="divider" style="transform:rotate(-20deg);"></div>
+            <div class="stat-num">ai/ml</div>
+          </div>
+          <div class="stat-label">master's in progress</div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+
+  <rect x="0" y="380" width="1100" height="140" fill="url(#bottomFade)"/>
+</svg>

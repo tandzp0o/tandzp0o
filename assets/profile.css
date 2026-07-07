@@ -1,0 +1,122 @@
+/**
+ * Profile landing styles — dùng nhúng trong README (<style>) hoặc foreignObject SVG.
+ * GitHub README KHÔNG load file .css qua <link>; file này để tham chiếu / tái sử dụng.
+ */
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --bg: #000000;
+  --fg: #ffffff;
+  --muted: rgba(255, 255, 255, 0.7);
+  --subtle: rgba(255, 255, 255, 0.4);
+  --pill: rgba(23, 23, 23, 0.9);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.profile-root {
+  font-family: 'Readex Pro', system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  letter-spacing: -0.04em;
+  line-height: 0.95;
+  font-weight: 500;
+  margin: 0;
+  text-transform: lowercase;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--pill);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.pill-nav a {
+  color: rgba(255, 255, 255, 0.65);
+  text-decoration: none;
+  font-size: 13px;
+  padding: 8px 18px;
+  border-radius: 9999px;
+  transition: color 0.2s ease;
+  text-transform: lowercase;
+}
+
+.pill-nav a:hover {
+  color: #fff;
+}
+
+.btn-primary {
+  background: #fff;
+  color: #000;
+  font-size: 13px;
+  font-weight: 400;
+  border-radius: 9999px;
+  padding: 12px 24px;
+  text-decoration: none;
+  transition: background 0.2s ease;
+  text-transform: lowercase;
+}
+
+.btn-primary:hover {
+  background: #e5e5e5;
+}
+
+.stat-num {
+  font-size: clamp(28px, 5vw, 42px);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 4px;
+  text-transform: lowercase;
+}
+
+.divider {
+  height: 1px;
+  width: 72px;
+  background: var(--subtle);
+}
+
+.section-card {
+  background: rgba(23, 23, 23, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 24px 28px;
+  margin: 16px 0;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-in {
+  animation: fadeUp 0.8s ease forwards;
+}
+
+.animate-delay-1 { animation-delay: 0.15s; opacity: 0; }
+.animate-delay-2 { animation-delay: 0.3s; opacity: 0; }
+.animate-delay-3 { animation-delay: 0.45s; opacity: 0; }
