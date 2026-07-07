@@ -1,156 +1,68 @@
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
-
-  .profile-root {
-    font-family: 'Readex Pro', system-ui, -apple-system, sans-serif;
-    background: #000;
-    color: #fff;
-    -webkit-font-smoothing: antialiased;
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 4px 32px;
-  }
-
-  .profile-root a { color: rgba(255,255,255,0.85); }
-
-  .section-card {
-    background: rgba(23, 23, 23, 0.65);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    border-radius: 16px;
-    padding: 22px 26px;
-    margin: 18px 0;
-    text-align: left;
-  }
-
-  .section-title {
-    font-weight: 500;
-    letter-spacing: -0.02em;
-    text-transform: lowercase;
-    margin: 0 0 12px;
-    font-size: 17px;
-    color: #fff;
-  }
-
-  .section-card p {
-    color: rgba(255, 255, 255, 0.82);
-    font-size: 14px;
-    line-height: 1.65;
-    margin: 0;
-  }
-
-  .stats-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    justify-content: center;
-    margin: 20px 0 8px;
-  }
-
-  .social-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-    margin: 16px 0;
-  }
-
-  .social-row a {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    background: rgba(23, 23, 23, 0.9);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    border-radius: 999px;
-    padding: 10px 18px;
-    font-size: 12px;
-    text-decoration: none;
-    text-transform: lowercase;
-    transition: background 0.2s ease, color 0.2s ease;
-  }
-
-  .social-row a:hover {
-    background: rgba(38, 38, 38, 0.95);
-    color: #fff;
-  }
-
-  .avatar-ring {
-    border-radius: 50%;
-    border: 2px solid rgba(255, 255, 255, 0.12);
-    box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.04);
-  }
-
-  @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(18px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-
-  .fade-in { animation: fadeUp 0.7s ease forwards; }
-  .fade-in-2 { animation: fadeUp 0.7s ease 0.12s forwards; opacity: 0; }
-  .fade-in-3 { animation: fadeUp 0.7s ease 0.24s forwards; opacity: 0; }
-
-  .exp-block {
-    background: rgba(10, 10, 10, 0.8);
-    border: 1px solid rgba(255,255,255,0.08);
-    border-radius: 12px;
-    padding: 16px 18px;
-    font-family: ui-monospace, 'Cascadia Code', 'JetBrains Mono', monospace;
-    font-size: 12px;
-    line-height: 1.55;
-    color: rgba(255,255,255,0.78);
-    overflow-x: auto;
-    white-space: pre;
-    margin: 0;
-  }
-</style>
-
-<div class="profile-root">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/hero.svg">
-  <img src="./assets/hero.svg" alt="build with purpose — fullstack developer" width="100%" />
-</picture>
-
-<div align="center" class="fade-in">
-
-<img class="avatar-ring" src="assets/avatar.jpg" width="96" height="96" alt="Lê Trương Trọng Tấn" />
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Readex+Pro&weight=400&size=18&duration=2800&pause=1400&color=FFFFFF&center=true&vCenter=true&width=600&lines=fullstack+developer+%C2%B7+hcm+city;building+erp%2Fcrm+that+ship+to+production;next.js+%C2%B7+node.js+%C2%B7+mongodb;master%27s+in+ai%2Fml+in+progress)](https://github.com/tandzp0o)
-
-</div>
-
-<div class="social-row fade-in-2">
-  <a href="https://github.com/tandzp0o">github</a>
-  <a href="https://ltttan-portfolio.vercel.app/">portfolio</a>
-  <a href="https://www.facebook.com/trongtan.le.18">facebook</a>
-  <a href="mailto:tannguyen0916@gmail.com">email</a>
-  <a href="tel:0916467039">phone</a>
-</div>
-
-<div class="stats-row fade-in-3">
-  <img src="https://github-readme-stats.vercel.app/api?username=tandzp0o&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=a3a3a3&icon_color=ffffff&rank_icon=percentile" alt="github stats" height="165" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tandzp0o&theme=dark&hide_border=true&background=00000000&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=a3a3a3&dates=a3a3a3" alt="streak stats" height="165" />
-</div>
-
-<div class="stats-row">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tandzp0o&layout=compact&theme=dark&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=a3a3a3" alt="top languages" height="165" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tandzp0o&theme=react-dark&hide_border=true&bg_color=000000&color=ffffff&line=ffffff&point=ffffff&area=true" alt="contribution graph" height="165" />
-</div>
-
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=tandzp0o&color=737373&style=flat-square&label=profile+views" alt="profile views" />
-</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:000000&height=160&section=header&text=L%C3%AA%20Tr%C6%B0%C6%A1ng%20Tr%E1%BB%8Dng%20T%E1%BA%A4n&fontSize=38&fontColor=ffffff&animation=twinkling" alt="header wave" />
+
+<img src="assets/hero.svg" width="100%" alt="build with purpose" />
+
+<img src="assets/header-banner.svg" width="100%" alt="terminal header" />
 
 <br>
 
-<div class="section-card" id="about">
-  <p class="section-title">about</p>
-  <p>software developer specializing in <strong>next.js, react, node.js and mongodb</strong>, with a strong background in building and deploying erp/crm systems end-to-end — from requirement analysis through to production on vercel. currently pursuing a master's degree in information technology with a focus on ai/ml models and algorithm optimization, and passionate about integrating ai into web applications.</p>
+<img src="assets/avatar.jpg" width="110" height="110" alt="avatar" />
+
+<br><br>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1200&color=FFFFFF&center=true&vCenter=true&width=700&lines=fullstack+developer+%C2%B7+next.js+%C2%B7+node.js;building+erp%2Fcrm+systems+that+ship;integrating+ai%2Fml+into+web+apps;based+in+ho+chi+minh+city)](https://git.io/typing-svg)
+
+<br>
+
+[![GitHub](https://img.shields.io/badge/github-tandzp0o-fff?style=for-the-badge&logo=github&logoColor=black&labelColor=fff&color=000)](https://github.com/tandzp0o)
+[![Portfolio](https://img.shields.io/badge/portfolio-visit-fff?style=for-the-badge&logo=vercel&logoColor=black&labelColor=fff&color=000)](https://ltttan-portfolio.vercel.app/)
+[![Email](https://img.shields.io/badge/email-contact-fff?style=for-the-badge&logo=gmail&logoColor=black&labelColor=fff&color=000)](mailto:tannguyen0916@gmail.com)
+[![Facebook](https://img.shields.io/badge/facebook-connect-fff?style=for-the-badge&logo=facebook&logoColor=black&labelColor=fff&color=000)](https://www.facebook.com/trongtan.le.18)
+
+<br><br>
+
+### github analytics
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=tandzp0o&show_icons=true&theme=dark&hide_border=false&border_radius=12&bg_color=0d1117&title_color=ffffff&text_color=c9d1d9&icon_color=ffffff&include_all_commits=true" alt="github stats" />
+<img width="49%" src="https://streak-stats.demolab.com/?user=tandzp0o&theme=dark&hide_border=false&border_radius=12&background=0d1117&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideNums=ffffff&sideLabels=c9d1d9&dates=8b949e" alt="streak stats" />
+
+<br>
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tandzp0o&layout=compact&theme=dark&hide_border=false&border_radius=12&bg_color=0d1117&title_color=ffffff&text_color=c9d1d9&langs_count=8" alt="top languages" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tandzp0o&theme=github_dark" alt="repos per language" />
+
+<br>
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=tandzp0o&bg_color=0d1117&color=ffffff&line=ffffff&point=ffffff&area=true&hide_border=false&custom_title=contribution%20activity&custom_title_color=ffffff" alt="contribution graph" />
+
+<br>
+
+<img width="100%" src="https://github-profile-trophy.vercel.app/?username=tandzp0o&theme=onedark&no-frame=false&column=4&margin-w=8&margin-h=8" alt="github trophies" />
+
+<br>
+
+<img src="https://komarev.com/ghpvc/?username=tandzp0o&color=ffffff&style=for-the-badge&label=profile+views" alt="profile views" />
+
 </div>
 
-<div class="section-card" id="experience">
-  <p class="section-title">git log --experience</p>
-  <pre class="exp-block">* HEAD -> main   (Jan 2026 – Jul 2026)  Wows — R&amp;D
+---
+
+<details open>
+<summary><b>about</b></summary>
+<br>
+
+software developer specializing in **next.js, react, node.js and mongodb**, with a strong background in building and deploying erp/crm systems end-to-end — from requirement analysis through to production on vercel. currently pursuing a master's degree in information technology with a focus on ai/ml models and algorithm optimization.
+
+</details>
+
+<details open>
+<summary><b>git log --experience</b></summary>
+<br>
+
+```text
+* HEAD -> main   (Jan 2026 – Jul 2026)  Wows — R&D
 │   + Developed and deployed ERP/CRM modules using Next.js (App Router), Node.js, MongoDB
 │   + Handled user workflows, forms and real-time data operations
 │   + Collaborated with clients on requirement gathering, training and troubleshooting
@@ -159,51 +71,48 @@
 * (Apr 2025 – Oct 2025)  Mạng Xuyên Việt — Developer
     + Built and maintained ASP.NET WebForms applications
     + Integrated frontend with backend and SQL Server
-    + Implemented features based on client requirements, with a focus on performance</pre>
-</div>
+    + Implemented features based on client requirements, with a focus on performance
+```
 
-</div>
+</details>
 
-### projects
+<details open>
+<summary><b>projects</b></summary>
+<br>
 
-| project | stack | highlights |
-|---|---|---|
-| **erp / business websites** | ![Next.js](https://img.shields.io/badge/-Next.js-000?logo=nextdotjs&logoColor=white) ![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=nodedotjs&logoColor=white) ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white) ![.NET](https://img.shields.io/badge/-ASP.NET-512BD4?logo=dotnet&logoColor=white) | developed and maintained erp/business features; forms, workflows and database operations |
-| **experimental center management** | ![Next.js](https://img.shields.io/badge/-Next.js-000?logo=nextdotjs&logoColor=white) ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql&logoColor=white) | management features with responsive frontend interfaces |
+| | project | stack | highlights |
+|:---:|:---|:---|:---|
+| 🏢 | **erp / business websites** | ![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white) | erp/business features, forms, workflows, database ops |
+| 🧪 | **experimental center management** | ![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) | responsive management interfaces |
 
-<div class="profile-root">
+</details>
 
-<div class="section-card" id="skills">
-  <p class="section-title">skills</p>
-  <p>
-    <strong>frontend</strong><br>
-    <img src="https://img.shields.io/badge/-React.js-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
-    <img src="https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
-    <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-    <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-    <img src="https://img.shields.io/badge/-TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind" />
-    <br><br>
-    <strong>backend</strong><br>
-    <img src="https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
-    <img src="https://img.shields.io/badge/-ASP.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="ASP.NET" />
-    <img src="https://img.shields.io/badge/-RESTful_APIs-25D366?style=flat-square&logo=fastapi&logoColor=white" alt="REST" />
-    <br><br>
-    <strong>database</strong><br>
-    <img src="https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
-    <img src="https://img.shields.io/badge/-SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" alt="SQL Server" />
-    <img src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-    <br><br>
-    <strong>tools</strong><br>
-    <img src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-    <img src="https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
-    <img src="https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" alt="Postman" />
-    <img src="https://img.shields.io/badge/-Agile-0052CC?style=flat-square&logo=jira&logoColor=white" alt="Agile" />
-  </p>
-</div>
+<details open>
+<summary><b>skills</b></summary>
+<br>
 
-<div class="section-card">
-  <p class="section-title">education</p>
-  <p><strong>hcm city university of industry and trade</strong> — master's degree in information technology <em>(currently completing thesis and final defense)</em></p>
-</div>
+| frontend | backend | database | tools |
+|:---:|:---:|:---:|:---:|
+| ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) | ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
+| ![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white) | ![ASP.NET](https://img.shields.io/badge/ASP.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white) | ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white) | ![Vercel](https://img.shields.io/badge/Vercel-000?style=flat-square&logo=vercel&logoColor=white) |
+| ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | ![REST API](https://img.shields.io/badge/REST_API-fff?style=flat-square&logo=fastapi&logoColor=black) | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) | ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white) |
+| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | | | ![Agile](https://img.shields.io/badge/Agile-0052CC?style=flat-square&logo=jira&logoColor=white) |
+| ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) | | | |
+
+</details>
+
+<details open>
+<summary><b>education</b></summary>
+<br>
+
+🎓 **hcm city university of industry and trade** — master's degree in information technology *(thesis & final defense in progress)*
+
+</details>
+
+<div align="center">
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:0d1117&height=100&section=footer&text=thanks%20for%20visiting&fontSize=24&fontColor=ffffff&animation=twinkling" alt="footer wave" />
 
 </div>
